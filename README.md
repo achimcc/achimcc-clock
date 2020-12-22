@@ -1,6 +1,6 @@
 # achimcc-clock
 
-> A simple React Clock to test react-create-library
+> A simple React clock to test react-create-library
 
 [![NPM](https://img.shields.io/npm/v/achimcc-clock.svg)](https://www.npmjs.com/package/achimcc-clock) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 

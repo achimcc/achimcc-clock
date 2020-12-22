@@ -14,7 +14,7 @@ const append = (digit: number) : string => {
 const Clock = ({ hours, minutes }: Props) => {
     return (
     <div className={styles.clock}>
-        {append(hours)}:{append(minutes)}
+        {append(hours)}:{append(minutes)+'.'}
     </div>
     )
 }

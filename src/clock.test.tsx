@@ -16,10 +16,6 @@ describe('Clock', () => {
       const wrapper = shallow(<Clock hours = {11} minutes = {33} />)
       expect(wrapper.find('div').html()).toMatch(/11:33/) 
   })
-  test('this test should fail', () => {
-    const wrapper = shallow(<Clock hours = {11} minutes = {34} />)
-    expect(wrapper.find('div').html()).toMatch(/11:33/) 
-  })
   test('it should match snapshot', () => {
     const wrapper = shallow(<Clock hours = {11} minutes = {34} />)
     expect(wrapper).toMatchSnapshot()  

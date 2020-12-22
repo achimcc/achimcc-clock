@@ -7,14 +7,3 @@
   font-size: 2em;
   text-align: center;
 }
-
-.clock {
-  padding: 4px;
-  height: auto;
-  border: 2px solid #000;
-  border-radius: 10px;
-  display: inline-block;
-  margin: 2em;
-  font-size: 2em;
-  font-weight: bold;
-}
