@@ -1,6 +1,6 @@
 {
   "name": "achimcc-clock",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple React clock to test react-create-library",
   "author": "achimcc",
   "license": "MIT",
