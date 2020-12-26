@@ -13,7 +13,7 @@ const append = (digit: number): string => {
 const clockStyles = {
   padding: '4px',
   height: 'auto',
-  border: '4px solid #C5C6C7',
+  border: '4px solid',
   borderRadius: '10px',
   display: 'inline-block',
   margin: '2em',
