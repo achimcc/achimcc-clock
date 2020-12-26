@@ -16,7 +16,7 @@ const clockStyles = {
   border: '4px solid',
   borderRadius: '10px',
   display: 'inline-block',
-  margin: '2em',
+  margin: '1em',
   fontSize: '2em',
   fontWeight: 'bold' as 'bold'
 }
