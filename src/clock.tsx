@@ -1,5 +1,4 @@
 import * as React from 'react'
-import styles from './styles.module.css'
 
 interface Props {
   hours: number
@@ -11,9 +10,20 @@ const append = (digit: number): string => {
   else return `${digit}`
 }
 
+const clockStyles = {
+  padding: '4px',
+  height: 'auto',
+  border: '2px solid #000',
+  borderRadius: '10px',
+  display: 'inline-block',
+  margin: '2em',
+  fontSize: '2em',
+  fontWeight: 'bold' as 'bold'
+}
+
 const Clock = ({ hours, minutes }: Props) => {
   return (
-    <div className={styles.clock}>
+    <div style={clockStyles}>
       {append(hours)}:{append(minutes)}
     </div>
   )
